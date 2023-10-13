@@ -124,11 +124,3 @@ def test_all_templates(subtests, pytestconfig):
                 # assert False
 
 
-# a_list = [1, 2, 3]
-# input_combinations = [[1, 2], [3, 4]]
-
-
-# @pytest.mark.parametrize("a", a_list)
-# @pytest.mark.parametrize("inputs", input_combinations)
-# def test_abc(a, inputs):
-#     a ** 2
